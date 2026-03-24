@@ -16,11 +16,11 @@ This plugin exposes your radio as a **Television** accessory, allowing for power
 ## Installation
 
 ### Via Homebridge UI
-Search for `homebridge-roberts-radio` in the **Plugins** tab and click **Install**.
+Search for `homebridge-roberts-wifi-radio` in the **Plugins** tab and click **Install**.
 
 ### Via Command Line
 ```bash
-npm install -g homebridge-roberts-radio
+npm install -g homebridge-roberts-wifi-radio
 ```
 
 ## Configuration

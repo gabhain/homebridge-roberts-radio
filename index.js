@@ -6,7 +6,7 @@ module.exports = (homebridge) => {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
   Categories = homebridge.hap.Categories;
-  homebridge.registerPlatform('homebridge-roberts-radio', 'RobertsRadioPlatform', RobertsRadioPlatform);
+  homebridge.registerPlatform('homebridge-roberts-wifi-radio', 'RobertsRadioPlatform', RobertsRadioPlatform);
 };
 
 class RobertsRadioPlatform {
@@ -41,8 +41,8 @@ class RobertsRadioPlatform {
     new RobertsRadio(this.log, this.config, radioAccessory, volumeAccessory, this.api);
     
     // Publish as separate External Accessories
-    this.api.publishExternalAccessories('homebridge-roberts-radio', [radioAccessory]);
-    this.api.publishExternalAccessories('homebridge-roberts-radio', [volumeAccessory]);
+    this.api.publishExternalAccessories('homebridge-roberts-wifi-radio', [radioAccessory]);
+    this.api.publishExternalAccessories('homebridge-roberts-wifi-radio', [volumeAccessory]);
     
     this.log.info(`Radio "${name}" and Volume Slider published separately as external accessories.`);
   }
