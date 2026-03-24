@@ -1,8 +1,8 @@
 {
   "name": "homebridge-roberts-radio",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Homebridge plugin for Roberts Radios using FSAPI",
-  "displayName": "Roberts Radio Homebridge Plugin",
+  "displayName": "Homebridge Roberts Radio",
   "main": "index.js",
   "keywords": [
     "homebridge-plugin",

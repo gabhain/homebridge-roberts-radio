@@ -1,7 +1,7 @@
 {
   "pluginAlias": "RobertsRadioPlatform",
   "pluginType": "platform",
-  "headerDisplay": "Roberts Radio Settings",
+  "headerDisplay": "Homebridge Roberts Radio Settings",
   "schema": {
     "type": "object",
     "properties": {
